@@ -1,0 +1,47 @@
+.full-name {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  color: #f5f5f5;
+}
+
+.description {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #f5f5f5;
+  /* opacity: 0.55; */
+}
+
+.programmer {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 17px !important;
+  font-weight: 300;
+  font-style: normal;
+  color: #aaa;
+  opacity: 1;
+}
+
+.home-section {
+  padding-top: 90px;
+}
+.me {
+  padding-top: 65px;
+}
+
+.profile-image {
+  max-width: 400px;
+  max-height: auto;
+  border-radius: 50% !important;
+  border: 17px solid #444444;
+}
+
+.action-buttons {
+  background-color: #333333;
+  color: #ffffff;
+
+  border-radius: 20px;
+  border: 2px solid #007ced;
+}
