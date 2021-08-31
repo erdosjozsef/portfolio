@@ -1,0 +1,139 @@
+body {
+  background-color: #222 !important;
+}
+.firstName:hover {
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-weight: 600;
+}
+.full-name {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  color: #f5f5f5;
+}
+
+.description {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #f5f5f5;
+  /* opacity: 0.55; */
+}
+
+.programmer {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 17px !important;
+  font-weight: 300;
+  font-style: normal;
+  color: #aaa;
+  opacity: 1;
+}
+
+.home-section {
+  padding-top: 90px;
+}
+.me {
+  padding-top: 65px;
+}
+
+li:hover a {
+  text-decoration: none;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: bold;
+  color: #f5f5f5;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.firstName {
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-weight: 600;
+}
+.last-name {
+  font-weight: 400 !important;
+}
+
+.navbar {
+  background-color: #222 !important;
+  padding-top: 20px;
+}
+
+.navbar-nav > li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.not-active {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #f5f5f5;
+  opacity: 0.55;
+}
+
+.active {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #f5f5f5;
+  opacity: 0.55;
+}
+
+.logo-symbol {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  background-color: #007ced;
+  border-radius: 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+  margin-right: 8px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.profile-image {
+  max-width: 400px;
+  max-height: auto;
+  border-radius: 50% !important;
+  /* border-color: #444444 !important; */
+  border: 17px solid #444444;
+}
+
+.action-buttons {
+  background-color: #333333; /* Green */
+  color: #ffffff;
+  /* border-color: #007ced; */
+  border-radius: 20px;
+  border: 2px solid #007ced;
+}
+
+.raised-block {
+  background-color: #fff;
+  margin-bottom: 199px;
+  margin-left: 0;
+  margin-right: -0.625rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+@media (max-width: 33.9em) {
+  .raised-block {
+    margin-left: -0.625rem;
+  }
+}
+.row [class^="col-"]:first-child > .raised-block {
+  margin-left: -0.625rem;
+}
